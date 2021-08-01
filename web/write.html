@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="nav-bar">
+			<div class="content">
+				<div class="logo" onclick="location.href='index.html'">
+					로고
+				</div>
+				<button type="button" class="box white" onclick="location.href='login.html'">
+					로그인
+				</button>
+			</div>
+		</div>
+		<div class="article">
+			<div class="title mb5 mt100">
+				게시글 작성
+			</div>
+
+			<hr class="mb5" />
+
+			<form class="write">
+				<div>
+					<label for="title">제목</label><br />
+					<input type="text" id="title" class="write-box"/>
+				</div>
+				<div>
+					<label for="content">내용</label>
+					<br />
+					<textarea id="content" class="write-box h500"></textarea>
+				</div>
+			</form>
+
+			<button type="submit" class="box black right">
+				작성
+			</button>
+		</div>
+	</body>
+</html>
