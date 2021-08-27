@@ -1,0 +1,20 @@
+database = dove
+
+=====table===
+users
+
+create table users(
+    id varchar(11) NOT NULL PRIMARY KEY,
+    passwd varchar(20) NOT NULL,
+    name varchar(30) NOt NULL,
+    date datetime NOT NULL)
+)
+
+board
+
+create table board(
+id int(11) not null auto_increment not null primary key,
+title varchar(30) not null,
+content varchar(1500) not null,
+name varchar(20) not null,
+date datetime not null);
