@@ -1,5 +1,0 @@
-insert into users ( id, passwd, name, date) values('ckdwls','q1w2e3r4t5y6u7','ckdwlsrh',NOW());
-insert into users ( id, passwd, name, date) values('admin','root1234','root',NOW());
-insert into users ( id, passwd, name, date) values('guest','guest2222','guest',NOW());
-insert into users ( id, passwd, name, date) values('whdghkschl','whdghks','whdghks',NOW());
-insert into users ( id, passwd, name, date) values('dnjsruachl','dnjsrua','dnjsrua',NOW());
